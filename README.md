@@ -17,3 +17,7 @@ $ npx tailwindcss init -p
 $ npm i -D prettier prettier-plugin-tailwindcss
 
 
+Start liveScren Project 
+$ npm run dev
+
+
