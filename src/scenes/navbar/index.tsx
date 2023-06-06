@@ -5,6 +5,7 @@ import Logo from "@/assets/Logo.png";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import ActionButton from "@/shared/ActionButton";
 
 type Props = {
     selectedPage: SelectedPage;
@@ -63,10 +64,16 @@ const Navbar = ({selectedPage, setSelectedPage }: Props) => {
 
                         </div>
                     )}
-
                 </div>
             </div>         
         </div>
+
+        {/* MOBILE MENU MODAL */}
+        {!isAboveMediumScreens && isMenuToggled && (
+            <div>
+                
+            </div>
+        )}
 
     </nav>
 
