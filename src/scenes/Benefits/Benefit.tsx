@@ -7,8 +7,6 @@ const childVariant = {
     visible: { opacity: 1, scale: 1 },
   };
 
-
-
 type Props = {
     icon: JSX.Element;
     title: string;
