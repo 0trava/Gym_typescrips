@@ -28,6 +28,14 @@ const benefits: Array<BenefitType> = [
       description:"Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
     },
   ];
+
+
+const container = {
+    hidden: {},
+    visible: {
+        transition: {staggerChildren: 0.2}
+    }
+}
   
 
 type Props = {
@@ -55,7 +63,7 @@ function Benefits({setSelectedPage }: Props) {
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true, amount: 0.5 }}
-                
+                variants={container}
                 >
                 {benefits.map((benefit: BenefitType) => (
                     <Benefit
