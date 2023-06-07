@@ -2,6 +2,7 @@ import Navbar from "@/scenes/navbar";
 import { useEffect, useState } from "react";
 import {SelectedPage} from "@/shared/types";
 import Home from "./scenes/home/home";
+import Benefits from "./scenes/Benefits/Benefits";
 
 
 // enum SelectedPage {
@@ -37,8 +38,8 @@ useEffect (() => {
       isTopOfPage={isTopOfPage}
       selectedPage={selectedPage}
       setSelectedPage={setSelectedPage}/>
-    <Home 
-    setSelectedPage={setSelectedPage}/>
+    <Home setSelectedPage={setSelectedPage}/>
+    <Benefits setSelectedPage={setSelectedPage}/>
   </div>
 }
 
