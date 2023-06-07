@@ -24,7 +24,11 @@ function Home({setSelectedPage}: Props) {
         {/* MAIN HEADER */}
         <div className="z-10 mt-32 md:basic-3/5">
             {/* HEADINGS */}
-            <div className="md:-mt-20 ">
+            <motion.div 
+              className="md:-mt-20 "
+              initial="hidden"
+              whileInView="visible"
+              viewport={{once:true, amount: 0.5}}>
             <div className="relative">
                 <div className="before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext ">
                     <img src={HomePageText} alt="home-page-text" />
@@ -35,7 +39,7 @@ function Home({setSelectedPage}: Props) {
                 Studios to get the Body Shapes That you Dream of.. Get Your Dream
                 Body Now.
                 </p>
-            </div>
+            </motion.div>
             {/* ACTIONS */}
             <div className="mt-8 flex items-center gap-8">
                <ActionButton setSelectedPage={setSelectedPage}>
@@ -57,9 +61,9 @@ function Home({setSelectedPage}: Props) {
     </div>
     {/* SPONSORS*/}
     {isAboveMediumScreens && (
-        <div>
-            <div>
-                <div>
+        <div className="h-[150px] w-full bg-primary-100 py-10">
+            <div className="mx-auto w-5/6">
+                <div className="flex w-3/5 items-center justify-between ">
                     <img src={SponsorRedBull} alt="redbull-sponsor" />
                     <img src={SponsorForbes} alt="forbes-sponsor" />
                     <img src={SponsorFortune} alt="fortune-sponsor" />
