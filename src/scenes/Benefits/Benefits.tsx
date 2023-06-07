@@ -88,7 +88,10 @@ function Benefits({setSelectedPage }: Props) {
             {/* GRAFICS AND DESCRIPTION */}
             <div>
                 {/* GRAFIC */}
-                <img src="" alt="" />
+                <img 
+                className="mx-auto"
+                src={BenefitsPageGraphic} 
+                alt="benefits-page-grafics" />
                 {/* DESCRIPTION */}
                 <div>
                     {/* TITLE */}
