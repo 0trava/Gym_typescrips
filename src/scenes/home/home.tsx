@@ -25,6 +25,7 @@ function Home({setSelectedPage}: Props) {
         <div>
             {/* HEADINGS */}
             <div>
+            <div>
                 <div>
                     <img src={HomePageText} alt="home-page-text" />
                 </div>
@@ -34,6 +35,14 @@ function Home({setSelectedPage}: Props) {
               Studios to get the Body Shapes That you Dream of.. Get Your Dream
               Body Now.
             </p>
+            </div>
+            {/* ACTIONS */}
+            <div>
+               <ActionButton setSelectedPage={setSelectedPage}>
+                Join Now
+               </ActionButton>
+            </div>
+
 
         </div>
 
