@@ -1,5 +1,5 @@
 import React from 'react';
-import { SelectedPage } from "@/shared/types";
+import { SelectedPage, ClassType } from "@/shared/types";
 import { motion } from "framer-motion";
 import HText from "@/shared/HText";
 
@@ -11,7 +11,7 @@ import image5 from "@/assets/image5.png";
 import image6 from "@/assets/image6.png";
 import Class from './Class';
 
-const classes: Array<any> = [
+const classes: Array<ClassType> = [
     {
       name: "Weight Training Classes",
       description:
@@ -77,7 +77,7 @@ const OurClasses = ({setSelectedPage}: Props) => {
             {/* IMAGE-SCROLL */}
             <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
                 <ul className="w-[2800px] whitespace-nowrap">
-                    {classes.map((item: any, index) => (
+                    {classes.map((item: ClassType, index) => (
                         <Class 
                         key={`${item.name}-${index}`}
                         name={item.name}
