@@ -33,7 +33,7 @@ useEffect (() => {
 
 
 
-  return <div className="app bg-gray-20 ">
+  return <div className="app bg-gray-20">
     <Navbar 
       isTopOfPage={isTopOfPage}
       selectedPage={selectedPage}
