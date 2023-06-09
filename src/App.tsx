@@ -4,6 +4,8 @@ import {SelectedPage} from "@/shared/types";
 import Home from "./scenes/home/home";
 import Benefits from "./scenes/Benefits/Benefits";
 import OurClasses from "./scenes/OurClasses/OurClasses";
+import ContactUs from "./scenes/ContactUs/ContactUs";
+// import Footer from "./scenes/Footer/Footer";
 
 
 // enum SelectedPage {
@@ -42,6 +44,9 @@ useEffect (() => {
     <Home setSelectedPage={setSelectedPage}/>
     <Benefits setSelectedPage={setSelectedPage}/>
     <OurClasses setSelectedPage={setSelectedPage}/>
+    <ContactUs setSelectedPage={setSelectedPage} />
+
+    {/* <Footer /> */}
   </div>
 }
 
