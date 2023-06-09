@@ -1,5 +1,5 @@
 {
-  "name": "Gym_typescrips",
+  "name": "gym_typescrips",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "lint:js": "eslint src/**/*.{js,jsx}"
+    "lint:ts": "eslint src/**/*.{ts,tsx}"
     
   },
   "dependencies": {
