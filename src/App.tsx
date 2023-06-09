@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import {SelectedPage} from "@/shared/types";
 import Home from "./scenes/home/home";
 import Benefits from "./scenes/Benefits/Benefits";
+import OurClasses from "./scenes/OurClasses/OurClasses";
 
 
 // enum SelectedPage {
@@ -40,6 +41,7 @@ useEffect (() => {
       setSelectedPage={setSelectedPage}/>
     <Home setSelectedPage={setSelectedPage}/>
     <Benefits setSelectedPage={setSelectedPage}/>
+    <OurClasses setSelectedPage={setSelectedPage}/>
   </div>
 }
 
