@@ -3,6 +3,12 @@
 https://www.youtube.com/watch?v=I2NNxr3WPDo
 
 
+![image](https://github.com/0trava/Gym_typescrips/assets/102797527/47862448-cf8d-4057-b1cc-13655502f31a)
+
+![image](https://github.com/0trava/Gym_typescrips/assets/102797527/646aca37-675a-4cdd-bee9-dc3baef319c7)
+
+
+
 Start terminal command:
 
 $ npm create vite@latest
