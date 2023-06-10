@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://0trava.github.io/gym-typescript/",
+  "homepage": "https://0trava.github.io/Gym_typescrips/",
 
   "scripts": {
     "dev": "vite",
