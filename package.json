@@ -1,16 +1,16 @@
 {
-  "name": "gym_typescrips",
+  "name": "gym-typescript",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://0trava.github.io/gym-typescript/",
+
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "lint:js": "eslint src/**/*.{ts,tsx}"
-    
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
