@@ -11,20 +11,20 @@ https://www.youtube.com/watch?v=I2NNxr3WPDo
 
 Start terminal command:
 
-$ npm create vite@latest
-Project name: ... gym-typescript
--Vanilla
--TypeScript
-$ npm i framer-motion react-anchor-link-smooth-scroll@1.0.12
-$ npm i @heroicons/react
-$ npm i -D @types/react-anchor-link-smooth-scroll@1.0.2 @type/node
-$ npm install -D tailwindcss postcss autoprefixer
-$ npx tailwindcss init -p
-$ npm i -D prettier prettier-plugin-tailwindcss
-$ npm i react-hook-form
+$ npm create vite@latest</p>
+Project name: ... gym-typescript</p>
+-Vanilla</p>
+-TypeScript</p>
+$ npm i framer-motion react-anchor-link-smooth-scroll@1.0.12</p>
+$ npm i @heroicons/react</p>
+$ npm i -D @types/react-anchor-link-smooth-scroll@1.0.2 @type/node</p>
+$ npm install -D tailwindcss postcss autoprefixer</p>
+$ npx tailwindcss init -p</p>
+$ npm i -D prettier prettier-plugin-tailwindcss</p>
+$ npm i react-hook-form</p>
 
 
-Start liveScren Project 
-$ npm run dev
+Start liveScren Project </p>
+$ npm run dev</p>
 
 
